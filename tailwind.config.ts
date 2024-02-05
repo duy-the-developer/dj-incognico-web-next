@@ -17,6 +17,10 @@ const config = {
                 '2xl': '1400px',
             },
         },
+        fontFamily: {
+            display: 'var(--font-display)',
+            sans: 'var(--font-sans)',
+        },
         extend: {
             colors: {
                 border: 'hsl(var(--border))',

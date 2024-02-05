@@ -43,4 +43,38 @@
     body {
         @apply bg-background text-foreground;
     }
+
+    .h1,
+    .h2,
+    .h3 {
+        @apply font-display font-bold leading-[0.9];
+    }
+
+    .h4 {
+        @apply leading-[1.1];
+    }
+
+    .h5,
+    .h6 {
+        @apply leading-[1.5];
+    }
+
+    .h1 {
+        @apply text-[8.8vw] tracking-[-0.54vw] lg:text-[6.4vw];
+    }
+    .h2 {
+        @apply text-[6.6vw] tracking-[-0.36] lg:text-[4.8vw];
+    }
+    .h3 {
+        @apply text-[4.4vw] tracking-[-0.24vw] lg:text-[3.2vw];
+    }
+    .h4 {
+        @apply lg:text-[2.13vw];
+    }
+    .h5 {
+        @apply text-sm lg:text-[1.422vw];
+    }
+    .h6 {
+        @apply text-xs lg:text-[1.222vw];
+    }
 }

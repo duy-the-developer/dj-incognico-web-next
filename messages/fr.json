@@ -1,5 +1,10 @@
 {
     "Index": {
         "title": "Bonjour le monde!"
+    },
+    "NavigationSection": {
+        "home": "DJ INCØGNICØ",
+        "about": "À PROPOS",
+        "contact": "CONTACT"
     }
 }
